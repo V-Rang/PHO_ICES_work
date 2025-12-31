@@ -1,0 +1,101 @@
+# ===============================
+# Model checkpoints / ML artifacts
+# ===============================
+checkpoints/
+**/checkpoints/
+*.pth
+*.ckpt
+*.pt
+
+# ===============================
+# Data / datasets (never commit)
+# ===============================
+**/data/
+**/dataset*/
+**/*.npy
+**/*.npz
+**/*.h5
+**/*.hdf5
+
+
+# ===============================
+# Experiment outputs / results
+# ===============================
+results/
+**/results/
+
+# ===============================
+# Serialized Python objects
+# ===============================
+*.pkl
+*.pickle
+
+# ===============================
+# Training / cached data
+# ===============================
+**/train_data.*
+**/DMD_data.*
+
+# ===============================
+# Videos / visualizations
+# ===============================
+*.mp4
+*.avi
+*.mov
+
+# ===============================
+# External repos (vendored code)
+# ===============================
+**/.git/
+**/.git/**
+
+# If you vendor external libraries, ignore them explicitly
+convection_diff_attempt1/neuraloperator/
+convection_diff_attempt1/SWEMniCS/
+
+# ===============================
+# Binary scientific data
+# ===============================
+*.bp
+*.vtk
+*.vtu
+*.h5
+*.hdf5
+
+# ===============================
+# Experiment outputs / results
+# ===============================
+results/
+**/results/
+**/examples/data/
+**/data/
+**/datasets/
+
+# ===============================
+# Python environments (NEVER COMMIT)
+# ===============================
+venv/
+.venv/
+env/
+**/env/
+**/venv/
+**/.venv/
+convection_diff_attempt1/yes/
+
+
+# Conda / local envs
+**/conda/
+**/conda_env/
+**/pkgs/
+**/site-packages/
+**/python*/site-packages/
+
+# ===============================
+# Python cache / bytecode
+# ===============================
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
